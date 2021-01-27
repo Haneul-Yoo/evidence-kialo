@@ -23,7 +23,7 @@
             </div>
             <template v-for="(context, i) of contexts" v-if="i === contextIndex" >
                 <div class="v-padded validator" v-if="validateIndexes.includes(contextIndex)">
-                    <div style="position: sticky; top:0; background-color: whitesmoke;">
+                    <div style="position: sticky; top:0; background-color: whitesmoke; z-index: 999;">
                         <h4>Argument</h4>
                         <b>[[ context.claim_text ]]</b>
                     </div>
