@@ -1,7 +1,7 @@
 [
     {
         "id": "strength",
-        "text": "How strongly does this evidence **REFUTE** the highlighted sentence in the argument?",
+        "text": "How strongly does this evidence **REFUTE** the argument?",
         "option": {
             "0": "Very Weak",
             "1": "Weak",
