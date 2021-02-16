@@ -34,9 +34,9 @@ def get_kialo(data):
     cnt = 0
     for row in data:
         cnt += 1
-        if cnt < 400:
+        if cnt < 1000:
             continue
-        if cnt > 1000:
+        if cnt > 1200:
             break
         book = {
             'id': row['claim_id'],
