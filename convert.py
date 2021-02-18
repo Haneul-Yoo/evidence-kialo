@@ -44,14 +44,6 @@ def get_cmv(data):
 def get_kialo(data):
     plus_cid, plus_eid = get_plus()
     for row in data:
-<<<<<<< HEAD
-        cnt += 1
-        if cnt < 1000:
-            continue
-        if cnt > 1200:
-            break
-=======
->>>>>>> 69367fdf0cc534b505cc5ca37bb9532408938504
         book = {
             'id': row['claim_id'],
             'claim_text': row['claim_text'],
